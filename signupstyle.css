@@ -1,0 +1,25 @@
+body{
+    background-color: #131f33;
+}
+#login{
+    background-color: #0005ff;
+    color: white;
+}
+.login-card .card-body{
+
+    padding: 85px 60px 60px;
+}
+.card{
+    background-color: #1e293c;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 20px;
+    background-clip: border-box;
+}
+.primary-text{
+    color: white;
+}
+.tertiary-text{
+    color: #acb1b8;
+}

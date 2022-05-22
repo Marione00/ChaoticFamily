@@ -1,0 +1,71 @@
+body{
+    background-color: #131f33;
+}
+.feature_image{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.imagehero{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+#createhero{
+    background-color: #0005ff;
+    color: white;
+}
+.card{
+    color: white;
+    background-color: #1e293c;
+    border-radius: 20px;
+    background-clip: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heroesCheck{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 5%;
+    /*margin: 10% 10% 10% 10%;*/
+    text-align: center;
+}
+.card-text{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.wrapper{
+    display: inline-block;
+}
+.wrapper{
+    display: flex;
+    background: #fff;
+    border-radius: 18px;
+    width: 80%;
+}
+#search-section form {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    height: 50px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, .13);
+}
+
+.form-control:active,
+.form-control:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
